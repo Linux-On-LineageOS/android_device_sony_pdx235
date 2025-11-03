@@ -35,3 +35,4 @@ $(call inherit-product, device/sony/sm6375-common/common.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/sony/pdx235/pdx235-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
